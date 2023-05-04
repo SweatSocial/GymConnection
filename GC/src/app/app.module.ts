@@ -17,11 +17,13 @@ import { MatGridListModule} from '@angular/material/grid-list';
 import { LandingPageComponent } from './component/landing-page/landing-page.component';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatListModule } from '@angular/material/list';
+import { HomeComponent } from './component/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
