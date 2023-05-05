@@ -2,17 +2,17 @@
     background-image: url('../../../assets/landing-page-img/Fondo1.jpeg');
     background-size: cover;
     position: absolute;
-    width: 1440px;
-    height: 890.19px;
+    width: 100%;
+    height: 186.93%;
+    top: 4rem;
     left: 0px;
-    top: 133.81px;
 }
 .Body h1{
     position: absolute;
-    width: 574px;
-    height: 264px;
+    width: 39.86%;
+    height: 25.78%;
     left: 110px;
-    top: 214px;
+    top: 5rem;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -22,10 +22,10 @@
 }
 .Body p{
     position: absolute;
-    width: 574px;
-    height: 60px;
+    width: 39.86%;
+    height: 5.85%;
     left: 110px;
-    top: 499.5px;
+    top: 25rem;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -33,7 +33,7 @@
     line-height: 30px;
     color: #FFFFFF;
 }
-.btntext{
+button span{
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -80,23 +80,32 @@
 }
 .tool{
     position: absolute;
-    width:auto;
-    height: 118px;
+    width: 100%;
+    height: 8%;
     left: 0px;
     top: 0px;
     display: flex;
-    gap: 15rem;
+}
+.bar{
+    background-color: white;
+    display: flex;
+    gap: 2rem;
 }
 .btx{
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 100%;
     line-height: 18px;
     text-align: center;
     color: #5D5A88;    
 }
 .logos{
-    width: 150px;
-    height: 50px;
+    background-image: url('../../../assets/landing-page-img/logo.png');
+    background-size: cover;
+    background-color: black;
+}
+.calltocations{
+    position: absolute;
+    top: 58.94%;
 }
