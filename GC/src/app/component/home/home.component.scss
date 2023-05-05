@@ -87,9 +87,10 @@ button span{
     display: flex;
 }
 .bar{
+    width: 100%;
     background-color: white;
     display: flex;
-    gap: 2rem;
+    gap: 50px;
 }
 .btx{
     font-family: 'DM Sans';
@@ -108,4 +109,7 @@ button span{
 .calltocations{
     position: absolute;
     top: 58.94%;
+}
+.toolbtn{
+    border-radius: 40px;
 }
